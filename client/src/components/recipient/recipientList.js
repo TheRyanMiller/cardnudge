@@ -11,7 +11,9 @@ const RecipientList = props => {
           <div
             className="recipientBlock fontColor"
             key={index}
-            onClick={()=>{console.log(recipient)}}
+            onClick={()=>{
+              props.loadRecipientDetails(recipient);
+            }}
             >
             {recipient.name}
           </div>

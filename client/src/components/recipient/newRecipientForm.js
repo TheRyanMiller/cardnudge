@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css';
-import validationData from '../validationData/addressValidationData';
+import '../../App.css';
+import validationData from '../../validationData/addressValidationData';
 
 const NewRecipientForm = props => {
 
