@@ -46,7 +46,6 @@ const App = props => {
 
   return (
     <div className="App">
-      
         {isEmpty(selectedRecipient) ? (<RecipientList recipients={recipientList} loadRecipientDetails={loadRecipientDetails} />) : (<span></span>)}
         {isEmpty(selectedRecipient)  ? (<RecipientForm updateRecipentList={updateRecipentList} />) : (<span></span>)}
         {!isEmpty(selectedRecipient) ? (<RecipientDetails backHome={backHome} recipient={selectedRecipient} loadRecipientDetails={loadRecipientDetails} />) : (<span></span>)}

@@ -1,6 +1,15 @@
 .recipientBlock{
-    background-color: rgb(95, 2, 201);
+    background-color: rgb(123, 22, 240);
     width: 200px;
-    margin: 5px auto;
+    margin: 0px 5px 5px 5px auto;
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
 
+.recipientListContainer{
+    margin: 0 auto;
+    width: 200px;
 }

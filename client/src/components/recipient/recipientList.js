@@ -9,7 +9,7 @@ const RecipientList = props => {
       (recipient, index) => {
         return(
           <div
-            className="recipientBlock fontColor"
+            className="recipientBlock"
             key={index}
             onClick={()=>{
               props.loadRecipientDetails(recipient);
@@ -24,7 +24,7 @@ const RecipientList = props => {
   
 
   return (
-    <div>
+    <div className="recipientListContainer">
       {recipientList}
     </div>
   );
